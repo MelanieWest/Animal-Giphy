@@ -12,9 +12,5 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/animate.html'));
 });
 
-// add other routes below
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname + '/animate.html'));
-});
 
 app.listen(process.env.PORT || 8080);
